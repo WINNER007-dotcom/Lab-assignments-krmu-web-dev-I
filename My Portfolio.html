@@ -9,51 +9,72 @@
     <header>
         <h1>SAMARTH SHARMA</h1>
     </header>
-    <NAV>
+    <nav>
         <li><a href="#about"> About Myself</a></li>
-        <li><a href="projects"> Projects</a></li>
+        <li><a href="#Project"> Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact Me</a></li>
-    </NAV>
+    </nav>
     <main>
         <section>
-            <h2>
-                Welcome to my Portfolio!
-            </h2>
+            <h2>Welcome to my Portfolio!</h2>
             <p>Hello! I am a student at KR Mangalam University, pursuing my B.Tech Degree in Computer Science with AI & ML specialization, currently in 1st year 1st sem and this is my personal Portfolio Website.</p>
-
         </section>
+
         <section id="about">
             <h2>Myself</h2>
             <img src="ME compressed.jpg" alt="My Picture" height="300" width="250">
-            <p>I am a coding enthusiast and love building small projects to brush up my skills and keep growing, also a casual chess player.Currently I am learning new libraries in Python, Html and CSS to enhance my skills in them.</p>
+            <p>I am a coding enthusiast and love building small projects to brush up my skills and keep growing, also a casual chess player. Currently I am learning new libraries in Python, HTML and CSS to enhance my skills in them.</p>
         </section>
-        <section id="projects">
+
+        <section id="Project">
             <h2>My Projects</h2>
-            <p> Here is the list of projects I made with github link attached.</p>
+            <p> Here is the list of projects I made with GitHub link attached:</p>
             <ul>
-                <li><b>Financial Tracker:</b>A personal Financial Tracker that asks users salary and expenses and shows them their expense summary.<a href="https://github.com/WINNER007-dotcom/-Projects-in-Python.git">Financial Tracker</a></li>
-                <li><b>Train Reservation:</b>A system which shows user seats available in train then asks them to input their credentials for booking of seats.<a href="https://github.com/WINNER007-dotcom/Train_Reservation.git">Train Reservation</a></li>
-                <li><b>Quiz:</b>A quiz containing 5 questions on cricket and chess and shows player score.<a href="https://github.com/WINNER007-dotcom/QUIZ.git">Quiz</a></li>
-                <li><b>ATM:</b> A system which asks user to create data and allows them to store or withdraw money<a href="https://github.com/WINNER007-dotcom/ATM.git">ATM</a></li>   
+                <li><b>Financial Tracker:</b> A personal financial tracker that asks users salary and expenses and shows them their expense summary. <a href="https://github.com/WINNER007-dotcom/-Projects-in-Python.git">Financial Tracker</a></li>
+                <li><b>Train Reservation:</b> A system which shows user seats available in train then asks them to input their credentials for booking of seats. <a href="https://github.com/WINNER007-dotcom/Train_Reservation.git">Train Reservation</a></li>
+                <li><b>Quiz:</b> A quiz containing 5 questions on cricket and chess and shows player score. <a href="https://github.com/WINNER007-dotcom/QUIZ.git">Quiz</a></li>
+                <li><b>ATM:</b> A system which asks user to create data and allows them to store or withdraw money. <a href="https://github.com/WINNER007-dotcom/ATM.git">ATM</a></li>   
             </ul>
         </section>
+
         <section id="skills">
             <h2>My Skills</h2>
-            <ul>
-                <li><b>Python</b>(Beginner)</li>
-                <li><b>HTML</b>(Learning)</li>
-                <li><b>CSS</b>(Learning)</li>
-            </ul>
+            <table border="1" cellpadding="10">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Learning</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Learning</td>
+                </tr>
+            </table>
         </section>
+
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>Email:<b>samarthsharma4109@gmail.com</b></p>
-            <p><a href="https://www.linkedin.com/in/samarth-sharma-03567936a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></p>
-            <p><a href="https://github.com/WINNER007-dotcom">Github</a></p>
-           
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
 
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
-    
 </body>
 </html>
